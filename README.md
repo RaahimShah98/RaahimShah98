@@ -7,9 +7,9 @@
 <br />
 
 
-## It's me! Haroon Jawad.
+## It's me! Raahim Shah.
 #### I'm a Fullstack JavaScript developer 
-#### *Passionate about Web development, Web analytics, Software Design*
+#### *Passionate AI , Deep Learning, Computer Vision, Data-Analytics , *
 ## More about me:
 
 - 🔥 Worked on several enterprise level React, Node.js applications, Top-rated Plus Fullstack developer on Upwork
