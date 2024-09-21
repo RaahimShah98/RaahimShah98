@@ -1,7 +1,7 @@
 # Hey there! 👋
 
-<a href="https://www.linkedin.com/in/haroon-jawad-7942151ba/">
-  <img align="left" alt="Haroon's Linkdein" width="15px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
+<a href="https://www.linkedin.com/in/raahim-shah-7b6603213/">
+  <img align="left" alt="Raahim's Linkdein" width="15px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
 </a>
 
 <br />
