@@ -29,26 +29,9 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=RaahimShah98&theme=radical" alt="Contribution Graph" />
 </div>
 
-## 📊 Weekly Development Breakdown
-
-<!--START_SECTION:waka-->
-```text
-Loading data...
-```
-<!--END_SECTION:waka-->
-
-## 🚀 Recent Activity
-
-<!--START_SECTION:activity-->
-1. 🔍 Loading recent activity...
-<!--END_SECTION:activity-->
-
 ## 🏆 GitHub Trophies
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=RaahimShah98&theme=radical&no-frame=true&margin-w=15" alt="GitHub Trophies" />
 </div>
 
-## 📈 Contribution Calendar
-
-![Snake animation](https://github.com/RaahimShah98/RaahimShah98/blob/output/github-contribution-grid-snake.svg)
