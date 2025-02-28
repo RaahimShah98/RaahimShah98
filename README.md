@@ -123,3 +123,6 @@ EJS                      1 repo              ██░░░░░░░░░�
   <img src="https://github-profile-trophy.vercel.app/?username=RaahimShah98&theme=radical&no-frame=true&margin-w=15" alt="GitHub Trophies" />
 </div>
 
+## 📈 Contribution Calendar
+
+![Snake animation](https://github.com/RaahimShah98/RaahimShah98/blob/output/github-contribution-grid-snake.svg)
