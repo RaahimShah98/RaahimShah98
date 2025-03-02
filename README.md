@@ -32,9 +32,9 @@
 ## 📊 Weekly Development Breakdown
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-23%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-28%20mins-blue)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-940.1%20thousand%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-951.8%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
@@ -52,20 +52,20 @@
 
 ```text
 🌞 Morning                0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-🌆 Daytime                10 commits          ███████░░░░░░░░░░░░░░░░░░   26.32 % 
-🌃 Evening                11 commits          ███████░░░░░░░░░░░░░░░░░░   28.95 % 
-🌙 Night                  17 commits          ███████████░░░░░░░░░░░░░░   44.74 % 
+🌆 Daytime                10 commits          ██████░░░░░░░░░░░░░░░░░░░   25.00 % 
+🌃 Evening                11 commits          ███████░░░░░░░░░░░░░░░░░░   27.50 % 
+🌙 Night                  19 commits          ████████████░░░░░░░░░░░░░   47.50 % 
 ```
-📅 **I'm Most Productive on Tuesday** 
+📅 **I'm Most Productive on Sunday** 
 
 ```text
-Monday                   3 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   07.89 % 
-Tuesday                  8 commits           █████░░░░░░░░░░░░░░░░░░░░   21.05 % 
-Wednesday                7 commits           █████░░░░░░░░░░░░░░░░░░░░   18.42 % 
-Thursday                 6 commits           ████░░░░░░░░░░░░░░░░░░░░░   15.79 % 
-Friday                   2 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   05.26 % 
-Saturday                 4 commits           ███░░░░░░░░░░░░░░░░░░░░░░   10.53 % 
-Sunday                   8 commits           █████░░░░░░░░░░░░░░░░░░░░   21.05 % 
+Monday                   3 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   07.50 % 
+Tuesday                  8 commits           █████░░░░░░░░░░░░░░░░░░░░   20.00 % 
+Wednesday                7 commits           ████░░░░░░░░░░░░░░░░░░░░░   17.50 % 
+Thursday                 6 commits           ████░░░░░░░░░░░░░░░░░░░░░   15.00 % 
+Friday                   2 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   05.00 % 
+Saturday                 4 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   10.00 % 
+Sunday                   10 commits          ██████░░░░░░░░░░░░░░░░░░░   25.00 % 
 ```
 
 
@@ -110,7 +110,7 @@ EJS                      1 repo              ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 01/03/2025 00:52:23 UTC
+ Last Updated on 02/03/2025 00:51:48 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
