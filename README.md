@@ -32,7 +32,7 @@
 ## 📊 Weekly Development Breakdown
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-18%20hrs%2042%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-21%20hrs%201%20min-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-957.8%20thousand%20lines%20of%20code-blue)
 
@@ -75,23 +75,23 @@ Sunday                   12 commits          ███████░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-TypeScript               19 hrs 43 mins      ████████████████████████░   95.93 % 
-Python                   29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.40 % 
-JSON                     11 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.97 % 
-Other                    6 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.54 % 
-JavaScript               1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.15 % 
+TypeScript               17 hrs 39 mins      ████████████████████████░   95.50 % 
+Python                   29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.67 % 
+JSON                     11 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.08 % 
+Other                    6 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.57 % 
+JavaScript               1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.16 % 
 
 🔥 Editors: 
-VS Code                  20 hrs 33 mins      █████████████████████████   100.00 % 
+VS Code                  18 hrs 29 mins      █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-fit-master-ai            19 hrs 50 mins      ████████████████████████░   96.55 % 
-FitMaster-Food-Tracking  29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.40 % 
-meta                     11 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   00.94 % 
-open-ai-assitant         1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.11 % 
+fit-master-ai            17 hrs 46 mins      ████████████████████████░   96.17 % 
+FitMaster-Food-Tracking  29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.67 % 
+meta                     11 mins             ░░░░░░░░░░░░░░░░░░░░░░░░░   01.05 % 
+open-ai-assitant         1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.12 % 
 
 💻 Operating System: 
-Windows                  20 hrs 33 mins      █████████████████████████   100.00 % 
+Windows                  18 hrs 29 mins      █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -111,7 +111,7 @@ EJS                      1 repo              ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 09/03/2025 00:42:06 UTC
+ Last Updated on 10/03/2025 00:40:42 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
