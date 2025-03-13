@@ -32,7 +32,7 @@
 ## 📊 Weekly Development Breakdown
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-25%20hrs%2013%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-26%20hrs%202%20mins-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-957.8%20thousand%20lines%20of%20code-blue)
 
@@ -75,21 +75,21 @@ Sunday                   12 commits          ███████░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-TypeScript               16 hrs 57 mins      ████████████████████████░   96.68 % 
-Python                   29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.81 % 
-Other                    4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.43 % 
-JavaScript               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.06 % 
+TypeScript               13 hrs 59 mins      ████████████████████████░   96.01 % 
+Python                   29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.38 % 
+Other                    4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.52 % 
+JavaScript               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 % 
 JSON                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 
 🔥 Editors: 
-VS Code                  17 hrs 32 mins      █████████████████████████   100.00 % 
+VS Code                  14 hrs 34 mins      █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-fit-master-ai            17 hrs 3 mins       ████████████████████████░   97.19 % 
-FitMaster-Food-Tracking  29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.81 % 
+fit-master-ai            14 hrs 5 mins       ████████████████████████░   96.62 % 
+FitMaster-Food-Tracking  29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.38 % 
 
 💻 Operating System: 
-Windows                  17 hrs 32 mins      █████████████████████████   100.00 % 
+Windows                  14 hrs 34 mins      █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -109,7 +109,7 @@ EJS                      1 repo              ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 12/03/2025 00:48:12 UTC
+ Last Updated on 13/03/2025 00:49:18 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
