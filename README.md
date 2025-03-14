@@ -75,21 +75,17 @@ Sunday                   12 commits          ███████░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-TypeScript               13 hrs 59 mins      ████████████████████████░   96.01 % 
-Python                   29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.38 % 
-Other                    4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.52 % 
-JavaScript               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 % 
-JSON                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
+TypeScript               11 hrs 4 mins       █████████████████████████   100.00 % 
+Other                    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔥 Editors: 
-VS Code                  14 hrs 34 mins      █████████████████████████   100.00 % 
+VS Code                  11 hrs 4 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-fit-master-ai            14 hrs 5 mins       ████████████████████████░   96.62 % 
-FitMaster-Food-Tracking  29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.38 % 
+fit-master-ai            11 hrs 4 mins       █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Windows                  14 hrs 34 mins      █████████████████████████   100.00 % 
+Windows                  11 hrs 4 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -109,7 +105,7 @@ EJS                      1 repo              ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 13/03/2025 00:49:18 UTC
+ Last Updated on 14/03/2025 00:48:02 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
