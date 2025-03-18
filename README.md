@@ -75,19 +75,18 @@ Sunday                   12 commits          ███████░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-TypeScript               5 hrs 13 mins       █████████████████████████   98.14 % 
-JSON                     5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.85 % 
+TypeScript               3 hrs 16 mins       ████████████████████████░   97.07 % 
+JSON                     5 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.92 % 
 JavaScript               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
-Other                    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 
 🔥 Editors: 
-VS Code                  5 hrs 19 mins       █████████████████████████   100.00 % 
+VS Code                  3 hrs 22 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-fit-master-ai            5 hrs 19 mins       █████████████████████████   100.00 % 
+fit-master-ai            3 hrs 22 mins       █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Windows                  5 hrs 19 mins       █████████████████████████   100.00 % 
+Windows                  3 hrs 22 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -107,7 +106,7 @@ EJS                      1 repo              ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 17/03/2025 00:51:32 UTC
+ Last Updated on 18/03/2025 00:49:06 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
