@@ -32,15 +32,13 @@
 ## 📊 Weekly Development Breakdown
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-29%20hrs%2030%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-29%20hrs%2042%20mins-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-957.8%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 ? Used in GitHub's Storage 
- > 
-> 🏆 11 Contributions in the Year 2025
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -75,22 +73,22 @@ Sunday                   12 commits          ███████░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-TypeScript               2 hrs 54 mins       ███████████████████████░░   90.73 % 
-Python                   10 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.33 % 
-JSON                     7 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.90 % 
-Markdown                 0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 % 
-JavaScript               0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
+TypeScript               3 hrs 14 mins       ████████████████████░░░░░   78.95 % 
+Python                   47 mins             █████░░░░░░░░░░░░░░░░░░░░   19.20 % 
+JSON                     2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.10 % 
+Text                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.31 % 
+Other                    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.24 % 
 
 🔥 Editors: 
-VS Code                  3 hrs 12 mins       █████████████████████████   100.00 % 
+VS Code                  4 hrs 6 mins        █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-fit-master-ai            3 hrs               ███████████████████████░░   93.82 % 
-FitMaster-Food-Tracking  8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.23 % 
-posture-correction       3 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.95 % 
+fit-master-ai            3 hrs 14 mins       ████████████████████░░░░░   79.20 % 
+posture-correction       42 mins             ████░░░░░░░░░░░░░░░░░░░░░   17.46 % 
+FitMaster-Food-Tracking  8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.34 % 
 
 💻 Operating System: 
-Windows                  3 hrs 12 mins       █████████████████████████   100.00 % 
+Windows                  4 hrs 6 mins        █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -110,7 +108,7 @@ EJS                      1 repo              ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 21/03/2025 00:50:12 UTC
+ Last Updated on 22/03/2025 00:47:44 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
