@@ -75,22 +75,22 @@ Sunday                   12 commits          ███████░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-TypeScript               3 hrs 14 mins       ████████████████████░░░░░   78.95 % 
-Python                   47 mins             █████░░░░░░░░░░░░░░░░░░░░   19.20 % 
-JSON                     2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.10 % 
-Text                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.31 % 
-Other                    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.24 % 
+TypeScript               2 hrs 24 mins       ██████████████████░░░░░░░   73.58 % 
+Python                   47 mins             ██████░░░░░░░░░░░░░░░░░░░   24.10 % 
+JSON                     2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.39 % 
+Text                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.39 % 
+Other                    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.30 % 
 
 🔥 Editors: 
-VS Code                  4 hrs 6 mins        █████████████████████████   100.00 % 
+VS Code                  3 hrs 16 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-fit-master-ai            3 hrs 14 mins       ████████████████████░░░░░   79.20 % 
-posture-correction       42 mins             ████░░░░░░░░░░░░░░░░░░░░░   17.46 % 
-FitMaster-Food-Tracking  8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.34 % 
+fit-master-ai            2 hrs 24 mins       ██████████████████░░░░░░░   73.89 % 
+posture-correction       42 mins             █████░░░░░░░░░░░░░░░░░░░░   21.92 % 
+FitMaster-Food-Tracking  8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.19 % 
 
 💻 Operating System: 
-Windows                  4 hrs 6 mins        █████████████████████████   100.00 % 
+Windows                  3 hrs 16 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -110,7 +110,7 @@ EJS                      1 repo              ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 24/03/2025 00:52:13 UTC
+ Last Updated on 25/03/2025 00:50:52 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
