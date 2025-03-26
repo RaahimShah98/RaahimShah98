@@ -40,8 +40,6 @@
 
 > 📦 ? Used in GitHub's Storage 
  > 
-> 🏆 11 Contributions in the Year 2025
- > 
 > 🚫 Not Opted to Hire
  > 
 > 📜 13 Public Repositories 
@@ -75,22 +73,22 @@ Sunday                   12 commits          ███████░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-TypeScript               2 hrs 24 mins       ██████████████████░░░░░░░   73.58 % 
-Python                   47 mins             ██████░░░░░░░░░░░░░░░░░░░   24.10 % 
-JSON                     2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.39 % 
-Text                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.39 % 
-Other                    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.30 % 
+TypeScript               4 hrs 14 mins       █████████████████████░░░░   83.08 % 
+Python                   47 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.42 % 
+JSON                     2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.89 % 
+Text                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.25 % 
+Other                    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.21 % 
 
 🔥 Editors: 
-VS Code                  3 hrs 16 mins       █████████████████████████   100.00 % 
+VS Code                  5 hrs 6 mins        █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-fit-master-ai            2 hrs 24 mins       ██████████████████░░░░░░░   73.89 % 
-posture-correction       42 mins             █████░░░░░░░░░░░░░░░░░░░░   21.92 % 
-FitMaster-Food-Tracking  8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.19 % 
+fit-master-ai            4 hrs 15 mins       █████████████████████░░░░   83.29 % 
+posture-correction       42 mins             ████░░░░░░░░░░░░░░░░░░░░░   14.03 % 
+FitMaster-Food-Tracking  8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   02.68 % 
 
 💻 Operating System: 
-Windows                  3 hrs 16 mins       █████████████████████████   100.00 % 
+Windows                  5 hrs 6 mins        █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -110,7 +108,7 @@ EJS                      1 repo              ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 25/03/2025 00:50:52 UTC
+ Last Updated on 26/03/2025 00:50:05 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
