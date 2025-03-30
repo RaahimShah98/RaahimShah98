@@ -32,7 +32,7 @@
 ## 📊 Weekly Development Breakdown
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-36%20hrs%2049%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-37%20hrs%2032%20mins-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-958.0%20thousand%20lines%20of%20code-blue)
 
@@ -75,20 +75,20 @@ Sunday                   13 commits          ████████░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-TypeScript               5 hrs 34 mins       ████████████████████████░   98.00 % 
-JSON                     4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.34 % 
-Other                    1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.58 % 
-CSS                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.08 % 
+TypeScript               9 hrs 41 mins       █████████████████████████   98.29 % 
+Other                    5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.88 % 
+JSON                     4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.78 % 
+CSS                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.05 % 
 
 🔥 Editors: 
-VS Code                  5 hrs 41 mins       █████████████████████████   100.00 % 
+VS Code                  9 hrs 51 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-fit-master-ai            5 hrs 13 mins       ███████████████████████░░   91.69 % 
-whiserper-with-next      28 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.31 % 
+fit-master-ai            5 hrs 17 mins       █████████████░░░░░░░░░░░░   53.72 % 
+whiserper-with-next      4 hrs 33 mins       ████████████░░░░░░░░░░░░░   46.28 % 
 
 💻 Operating System: 
-Windows                  5 hrs 41 mins       █████████████████████████   100.00 % 
+Windows                  9 hrs 51 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -108,7 +108,7 @@ EJS                      1 repo              ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 29/03/2025 00:49:20 UTC
+ Last Updated on 30/03/2025 00:54:52 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
