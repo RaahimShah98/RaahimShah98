@@ -32,7 +32,7 @@
 ## 📊 Weekly Development Breakdown
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-37%20hrs%2032%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-41%20hrs%2042%20mins-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-958.0%20thousand%20lines%20of%20code-blue)
 
@@ -75,20 +75,20 @@ Sunday                   13 commits          ████████░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-TypeScript               9 hrs 41 mins       █████████████████████████   98.29 % 
-Other                    5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.88 % 
-JSON                     4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.78 % 
+TypeScript               10 hrs 54 mins      █████████████████████████   98.47 % 
+Other                    5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.79 % 
+JSON                     4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.69 % 
 CSS                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.05 % 
 
 🔥 Editors: 
-VS Code                  9 hrs 51 mins       █████████████████████████   100.00 % 
+VS Code                  11 hrs 4 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-fit-master-ai            5 hrs 17 mins       █████████████░░░░░░░░░░░░   53.72 % 
-whiserper-with-next      4 hrs 33 mins       ████████████░░░░░░░░░░░░░   46.28 % 
+whiserper-with-next      5 hrs 46 mins       █████████████░░░░░░░░░░░░   52.21 % 
+fit-master-ai            5 hrs 17 mins       ████████████░░░░░░░░░░░░░   47.79 % 
 
 💻 Operating System: 
-Windows                  9 hrs 51 mins       █████████████████████████   100.00 % 
+Windows                  11 hrs 4 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -108,7 +108,7 @@ EJS                      1 repo              ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 30/03/2025 00:54:52 UTC
+ Last Updated on 31/03/2025 00:53:40 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
