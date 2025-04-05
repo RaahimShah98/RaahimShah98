@@ -75,20 +75,21 @@ Sunday                   13 commits          ███████░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-TypeScript               7 hrs 32 mins       ████████████████████████░   97.81 % 
-Other                    5 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.12 % 
-JSON                     4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.99 % 
-CSS                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.07 % 
+TypeScript               8 hrs 29 mins       ████████████████████████░   97.50 % 
+Other                    7 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.52 % 
+Text                     4 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.93 % 
+CSS                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.03 % 
+JSON                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 % 
 
 🔥 Editors: 
-VS Code                  7 hrs 42 mins       █████████████████████████   100.00 % 
+VS Code                  8 hrs 42 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-whiserper-with-next      7 hrs 20 mins       ████████████████████████░   95.06 % 
-fit-master-ai            22 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.94 % 
+whiserper-with-next      8 hrs 34 mins       █████████████████████████   98.43 % 
+fit-master-ai            8 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.57 % 
 
 💻 Operating System: 
-Windows                  7 hrs 42 mins       █████████████████████████   100.00 % 
+Windows                  8 hrs 42 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -108,7 +109,7 @@ EJS                      1 repo              ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 04/04/2025 00:50:22 UTC
+ Last Updated on 05/04/2025 00:49:15 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
