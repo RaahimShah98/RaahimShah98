@@ -117,7 +117,7 @@ EJS                      1 repo              ██░░░░░░░░░�
 ## 🚀 Recent Activity
 
 <!--START_SECTION:activity-->
-1. 🔍 Loading recent activity...
+1. 🎉 Merged PR [#4](https://github.com/RaahimShah98/fitmaster-ai/pull/4) in [RaahimShah98/fitmaster-ai](https://github.com/RaahimShah98/fitmaster-ai)
 <!--END_SECTION:activity-->
 
 ## 🏆 GitHub Trophies
