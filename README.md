@@ -32,15 +32,15 @@
 ## 📊 Weekly Development Breakdown
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-61%20hrs%2057%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-62%20hrs%2054%20mins-blue)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-974.9%20thousand%20lines%20of%20code-blue)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-975.7%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 ? Used in GitHub's Storage 
  > 
-> 🏆 34 Contributions in the Year 2025
+> 🏆 40 Contributions in the Year 2025
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -52,20 +52,20 @@
 
 ```text
 🌞 Morning                0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-🌆 Daytime                13 commits          █████░░░░░░░░░░░░░░░░░░░░   21.31 % 
-🌃 Evening                15 commits          ██████░░░░░░░░░░░░░░░░░░░   24.59 % 
-🌙 Night                  33 commits          ██████████████░░░░░░░░░░░   54.10 % 
+🌆 Daytime                15 commits          ██████░░░░░░░░░░░░░░░░░░░   22.39 % 
+🌃 Evening                19 commits          ███████░░░░░░░░░░░░░░░░░░   28.36 % 
+🌙 Night                  33 commits          ████████████░░░░░░░░░░░░░   49.25 % 
 ```
 📅 **I'm Most Productive on Sunday** 
 
 ```text
-Monday                   3 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   04.92 % 
-Tuesday                  11 commits          █████░░░░░░░░░░░░░░░░░░░░   18.03 % 
-Wednesday                7 commits           ███░░░░░░░░░░░░░░░░░░░░░░   11.48 % 
-Thursday                 6 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   09.84 % 
-Friday                   10 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.39 % 
-Saturday                 5 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   08.20 % 
-Sunday                   19 commits          ████████░░░░░░░░░░░░░░░░░   31.15 % 
+Monday                   9 commits           ███░░░░░░░░░░░░░░░░░░░░░░   13.43 % 
+Tuesday                  11 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.42 % 
+Wednesday                7 commits           ███░░░░░░░░░░░░░░░░░░░░░░   10.45 % 
+Thursday                 6 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   08.96 % 
+Friday                   10 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.93 % 
+Saturday                 5 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   07.46 % 
+Sunday                   19 commits          ███████░░░░░░░░░░░░░░░░░░   28.36 % 
 ```
 
 
@@ -75,22 +75,22 @@ Sunday                   19 commits          ████████░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-TypeScript               8 hrs 56 mins       ███████████████████████░░   92.44 % 
-CSS                      13 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.28 % 
-JavaScript               12 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.09 % 
-Other                    9 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.57 % 
-JSON                     7 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.37 % 
+TypeScript               6 hrs 24 mins       ███████████████████░░░░░░   77.73 % 
+CSS                      47 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.55 % 
+JSON                     23 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.82 % 
+JavaScript               22 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.53 % 
+Other                    15 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.10 % 
 
 🔥 Editors: 
-VS Code                  9 hrs 40 mins       █████████████████████████   100.00 % 
+VS Code                  8 hrs 14 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-fit-master-ai            5 hrs 56 mins       ███████████████░░░░░░░░░░   61.36 % 
-whiserper-with-next      3 hrs 42 mins       ██████████░░░░░░░░░░░░░░░   38.43 % 
-test-app                 1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.21 % 
+whiserper-with-next      6 hrs 6 mins        ███████████████████░░░░░░   74.14 % 
+fit-master-ai            2 hrs 6 mins        ██████░░░░░░░░░░░░░░░░░░░   25.61 % 
+test-app                 1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.25 % 
 
 💻 Operating System: 
-Windows                  9 hrs 40 mins       █████████████████████████   100.00 % 
+Windows                  8 hrs 14 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -110,7 +110,7 @@ EJS                      1 repo              ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 14/04/2025 00:54:29 UTC
+ Last Updated on 15/04/2025 00:52:41 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
