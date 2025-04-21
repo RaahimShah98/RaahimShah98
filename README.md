@@ -75,22 +75,22 @@ Sunday                   19 commits          ██████░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-TypeScript               7 hrs 32 mins       ███████████████████░░░░░░   74.30 % 
-Other                    36 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.98 % 
-JavaScript               34 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.70 % 
-CSS                      34 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.66 % 
-HTML                     30 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.04 % 
+TypeScript               6 hrs 47 mins       ██████████████████░░░░░░░   73.88 % 
+CSS                      34 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.25 % 
+HTML                     30 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.56 % 
+JavaScript               30 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.48 % 
+Other                    29 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.40 % 
 
 🔥 Editors: 
-VS Code                  10 hrs 9 mins       █████████████████████████   100.00 % 
+VS Code                  9 hrs 12 mins       █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-whiserper-with-next      8 hrs 17 mins       ████████████████████░░░░░   81.69 % 
-practice-angular         1 hr 51 mins        █████░░░░░░░░░░░░░░░░░░░░   18.31 % 
+whiserper-with-next      7 hrs 20 mins       ████████████████████░░░░░   79.78 % 
+practice-angular         1 hr 51 mins        █████░░░░░░░░░░░░░░░░░░░░   20.22 % 
 ec2-fundamentals         0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 💻 Operating System: 
-Windows                  10 hrs 9 mins       █████████████████████████   100.00 % 
+Windows                  9 hrs 12 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -110,7 +110,7 @@ EJS                      1 repo              ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 20/04/2025 00:55:59 UTC
+ Last Updated on 21/04/2025 00:54:53 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
