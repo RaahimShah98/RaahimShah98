@@ -75,22 +75,22 @@ Sunday                   19 commits          ██████░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-TypeScript               2 hrs 55 mins       ███████████████████░░░░░░   77.54 % 
-HTML                     30 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.59 % 
-JavaScript               20 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.86 % 
+TypeScript               2 hrs 12 mins       ██████████████████░░░░░░░   72.31 % 
+HTML                     30 mins             ████░░░░░░░░░░░░░░░░░░░░░   16.76 % 
+JavaScript               20 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.92 % 
 CSS                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
 Other                    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 🔥 Editors: 
-VS Code                  3 hrs 45 mins       █████████████████████████   100.00 % 
+VS Code                  3 hrs 3 mins        █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-whiserper-with-next      1 hr 54 mins        █████████████░░░░░░░░░░░░   50.58 % 
-practice-angular         1 hr 51 mins        ████████████░░░░░░░░░░░░░   49.42 % 
+practice-angular         1 hr 51 mins        ███████████████░░░░░░░░░░   60.93 % 
+whiserper-with-next      1 hr 11 mins        ██████████░░░░░░░░░░░░░░░   39.06 % 
 ec2-fundamentals         0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
 
 💻 Operating System: 
-Windows                  3 hrs 45 mins       █████████████████████████   100.00 % 
+Windows                  3 hrs 3 mins        █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -110,7 +110,7 @@ EJS                      1 repo              ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 23/04/2025 00:52:21 UTC
+ Last Updated on 24/04/2025 00:52:32 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
