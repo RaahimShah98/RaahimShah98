@@ -75,22 +75,20 @@ Sunday                   19 commits          ██████░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-TypeScript               2 hrs 12 mins       ██████████████████░░░░░░░   72.31 % 
-HTML                     30 mins             ████░░░░░░░░░░░░░░░░░░░░░   16.76 % 
-JavaScript               20 mins             ███░░░░░░░░░░░░░░░░░░░░░░   10.92 % 
-CSS                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.01 % 
-Other                    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+TypeScript               1 hr 18 mins        ███████████████░░░░░░░░░░   60.90 % 
+HTML                     30 mins             ██████░░░░░░░░░░░░░░░░░░░   23.60 % 
+JavaScript               20 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.48 % 
+CSS                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 % 
 
 🔥 Editors: 
-VS Code                  3 hrs 3 mins        █████████████████████████   100.00 % 
+VS Code                  2 hrs 9 mins        █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-practice-angular         1 hr 51 mins        ███████████████░░░░░░░░░░   60.93 % 
-whiserper-with-next      1 hr 11 mins        ██████████░░░░░░░░░░░░░░░   39.06 % 
-ec2-fundamentals         0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+practice-angular         1 hr 50 mins        █████████████████████░░░░   85.72 % 
+whiserper-with-next      18 mins             ████░░░░░░░░░░░░░░░░░░░░░   14.28 % 
 
 💻 Operating System: 
-Windows                  3 hrs 3 mins        █████████████████████████   100.00 % 
+Windows                  2 hrs 9 mins        █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -110,7 +108,7 @@ EJS                      1 repo              ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 24/04/2025 00:52:32 UTC
+ Last Updated on 25/04/2025 00:52:40 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
