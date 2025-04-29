@@ -75,16 +75,17 @@ Sunday                   19 commits          ██████░░░░░�
 🕑︎ Time Zone: Asia/Karachi
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+JSON                     13 mins             █████████████░░░░░░░░░░░░   50.47 % 
+TypeScript               12 mins             ████████████░░░░░░░░░░░░░   49.53 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+VS Code                  26 mins             █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+whiserper-with-next      26 mins             █████████████████████████   100.00 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Windows                  26 mins             █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -104,7 +105,7 @@ EJS                      1 repo              ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 28/04/2025 00:54:28 UTC
+ Last Updated on 29/04/2025 00:52:45 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
