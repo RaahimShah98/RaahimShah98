@@ -32,7 +32,9 @@
 ## 📊 Weekly Development Breakdown
 
 <!--START_SECTION:waka-->
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-978.7%20thousand%20lines%20of%20code-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-72%20hrs%2032%20mins-blue)
+
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-988.8%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
@@ -50,20 +52,20 @@
 
 ```text
 🌞 Morning                0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-🌆 Daytime                15 commits          █████░░░░░░░░░░░░░░░░░░░░   19.74 % 
-🌃 Evening                28 commits          █████████░░░░░░░░░░░░░░░░   36.84 % 
-🌙 Night                  33 commits          ███████████░░░░░░░░░░░░░░   43.42 % 
+🌆 Daytime                15 commits          █████░░░░░░░░░░░░░░░░░░░░   19.48 % 
+🌃 Evening                28 commits          █████████░░░░░░░░░░░░░░░░   36.36 % 
+🌙 Night                  34 commits          ███████████░░░░░░░░░░░░░░   44.16 % 
 ```
 📅 **I'm Most Productive on Sunday** 
 
 ```text
-Monday                   9 commits           ███░░░░░░░░░░░░░░░░░░░░░░   11.84 % 
-Tuesday                  17 commits          ██████░░░░░░░░░░░░░░░░░░░   22.37 % 
-Wednesday                9 commits           ███░░░░░░░░░░░░░░░░░░░░░░   11.84 % 
-Thursday                 7 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   09.21 % 
-Friday                   10 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.16 % 
-Saturday                 5 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   06.58 % 
-Sunday                   19 commits          ██████░░░░░░░░░░░░░░░░░░░   25.00 % 
+Monday                   9 commits           ███░░░░░░░░░░░░░░░░░░░░░░   11.69 % 
+Tuesday                  17 commits          ██████░░░░░░░░░░░░░░░░░░░   22.08 % 
+Wednesday                9 commits           ███░░░░░░░░░░░░░░░░░░░░░░   11.69 % 
+Thursday                 7 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   09.09 % 
+Friday                   10 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.99 % 
+Saturday                 5 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   06.49 % 
+Sunday                   20 commits          ██████░░░░░░░░░░░░░░░░░░░   25.97 % 
 ```
 
 
@@ -86,14 +88,14 @@ whiserper-with-next      26 mins             ███████████�
 Windows                  26 mins             █████████████████████████   100.00 % 
 ```
 
-**I Mostly Code in JavaScript** 
+**I Mostly Code in TypeScript** 
 
 ```text
-JavaScript               5 repos             ████████░░░░░░░░░░░░░░░░░   33.33 % 
-TypeScript               4 repos             ███████░░░░░░░░░░░░░░░░░░   26.67 % 
-Jupyter Notebook         3 repos             █████░░░░░░░░░░░░░░░░░░░░   20.00 % 
-Python                   1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   06.67 % 
-EJS                      1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   06.67 % 
+TypeScript               5 repos             ████████░░░░░░░░░░░░░░░░░   31.25 % 
+JavaScript               5 repos             ████████░░░░░░░░░░░░░░░░░   31.25 % 
+Jupyter Notebook         3 repos             █████░░░░░░░░░░░░░░░░░░░░   18.75 % 
+Python                   1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   06.25 % 
+EJS                      1 repo              ██░░░░░░░░░░░░░░░░░░░░░░░   06.25 % 
 ```
 
 
@@ -103,7 +105,7 @@ EJS                      1 repo              ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 03/05/2025 00:51:38 UTC
+ Last Updated on 04/05/2025 00:58:24 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
