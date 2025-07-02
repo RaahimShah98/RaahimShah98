@@ -32,15 +32,11 @@
 ## 📊 Weekly Development Breakdown
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-72%20hrs%2032%20mins-blue)
-
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-995.9%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 ? Used in GitHub's Storage 
- > 
-> 🏆 52 Contributions in the Year 2025
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -104,7 +100,7 @@ EJS                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 01/07/2025 01:02:46 UTC
+ Last Updated on 02/07/2025 00:56:38 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
