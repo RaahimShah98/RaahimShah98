@@ -40,6 +40,8 @@
 
 > 📦 ? Used in GitHub's Storage 
  > 
+> 🏆 52 Contributions in the Year 2025
+ > 
 > 🚫 Not Opted to Hire
  > 
 > 📜 16 Public Repositories 
@@ -102,7 +104,7 @@ EJS                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 11/09/2025 00:51:03 UTC
+ Last Updated on 12/09/2025 00:48:19 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
