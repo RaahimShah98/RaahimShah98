@@ -32,8 +32,6 @@
 ## 📊 Weekly Development Breakdown
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-72%20hrs%2032%20mins-blue)
-
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-995.9%20thousand%20lines%20of%20code-blue)
 
 **🐱 My GitHub Data** 
@@ -48,45 +46,6 @@
  > 
 > 🔑 0 Private Repositories 
  > 
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-🌆 Daytime                17 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.89 % 
-🌃 Evening                44 commits          ████████████░░░░░░░░░░░░░   46.32 % 
-🌙 Night                  34 commits          █████████░░░░░░░░░░░░░░░░   35.79 % 
-```
-📅 **I'm Most Productive on Sunday** 
-
-```text
-Monday                   10 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.53 % 
-Tuesday                  17 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.89 % 
-Wednesday                9 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   09.47 % 
-Thursday                 7 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   07.37 % 
-Friday                   10 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.53 % 
-Saturday                 5 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   05.26 % 
-Sunday                   37 commits          ██████████░░░░░░░░░░░░░░░   38.95 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Karachi
-
-💬 Programming Languages: 
-No Activity Tracked This Week
-
-🔥 Editors: 
-No Activity Tracked This Week
-
-🐱‍💻 Projects: 
-No Activity Tracked This Week
-
-💻 Operating System: 
-No Activity Tracked This Week
-```
-
 **I Mostly Code in TypeScript** 
 
 ```text
@@ -104,7 +63,7 @@ EJS                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 16/09/2025 00:49:30 UTC
+ Last Updated on 17/09/2025 00:49:34 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
