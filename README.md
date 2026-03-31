@@ -90,11 +90,11 @@ No Activity Tracked This Week
 **I Mostly Code in JavaScript** 
 
 ```text
-JavaScript               8 repos             █████████░░░░░░░░░░░░░░░░   36.36 % 
-TypeScript               7 repos             ████████░░░░░░░░░░░░░░░░░   31.82 % 
-Jupyter Notebook         3 repos             ███░░░░░░░░░░░░░░░░░░░░░░   13.64 % 
-Python                   2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.09 % 
-EJS                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 % 
+JavaScript               8 repos             █████████░░░░░░░░░░░░░░░░   34.78 % 
+TypeScript               8 repos             █████████░░░░░░░░░░░░░░░░   34.78 % 
+Jupyter Notebook         3 repos             ███░░░░░░░░░░░░░░░░░░░░░░   13.04 % 
+Python                   2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   08.70 % 
+EJS                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.35 % 
 ```
 
 
@@ -104,7 +104,7 @@ EJS                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 30/03/2026 01:24:32 UTC
+ Last Updated on 31/03/2026 01:21:58 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
