@@ -51,21 +51,21 @@
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                0 commits           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
-🌆 Daytime                17 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.00 % 
-🌃 Evening                48 commits          ████████████░░░░░░░░░░░░░   48.00 % 
-🌙 Night                  35 commits          █████████░░░░░░░░░░░░░░░░   35.00 % 
+🌞 Morning                3 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   02.91 % 
+🌆 Daytime                17 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.50 % 
+🌃 Evening                48 commits          ████████████░░░░░░░░░░░░░   46.60 % 
+🌙 Night                  35 commits          ████████░░░░░░░░░░░░░░░░░   33.98 % 
 ```
 📅 **I'm Most Productive on Sunday** 
 
 ```text
-Monday                   13 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.00 % 
-Tuesday                  17 commits          ████░░░░░░░░░░░░░░░░░░░░░   17.00 % 
-Wednesday                9 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   09.00 % 
-Thursday                 7 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   07.00 % 
-Friday                   12 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.00 % 
-Saturday                 5 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   05.00 % 
-Sunday                   37 commits          █████████░░░░░░░░░░░░░░░░   37.00 % 
+Monday                   13 commits          ███░░░░░░░░░░░░░░░░░░░░░░   12.62 % 
+Tuesday                  20 commits          █████░░░░░░░░░░░░░░░░░░░░   19.42 % 
+Wednesday                9 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   08.74 % 
+Thursday                 7 commits           ██░░░░░░░░░░░░░░░░░░░░░░░   06.80 % 
+Friday                   12 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.65 % 
+Saturday                 5 commits           █░░░░░░░░░░░░░░░░░░░░░░░░   04.85 % 
+Sunday                   37 commits          █████████░░░░░░░░░░░░░░░░   35.92 % 
 ```
 
 
@@ -90,11 +90,11 @@ No Activity Tracked This Week
 **I Mostly Code in TypeScript** 
 
 ```text
-TypeScript               9 repos             █████████░░░░░░░░░░░░░░░░   37.50 % 
-JavaScript               8 repos             ████████░░░░░░░░░░░░░░░░░   33.33 % 
-Jupyter Notebook         3 repos             ███░░░░░░░░░░░░░░░░░░░░░░   12.50 % 
-Python                   2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   08.33 % 
-EJS                      1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.17 % 
+TypeScript               10 repos            ██████████░░░░░░░░░░░░░░░   38.46 % 
+JavaScript               8 repos             ████████░░░░░░░░░░░░░░░░░   30.77 % 
+Jupyter Notebook         3 repos             ███░░░░░░░░░░░░░░░░░░░░░░   11.54 % 
+Python                   2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   07.69 % 
+PLpgSQL                  1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   03.85 % 
 ```
 
 
@@ -104,7 +104,7 @@ EJS                      1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 27/04/2026 01:49:56 UTC
+ Last Updated on 28/04/2026 01:57:25 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
