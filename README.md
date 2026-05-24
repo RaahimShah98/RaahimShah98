@@ -32,8 +32,6 @@
 ## 📊 Weekly Development Breakdown
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-72%20hrs%2037%20mins-blue?style=flat)
-
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-1.10%20million%20lines%20of%20code-blue?style=flat)
 
 **🐱 My GitHub Data** 
@@ -51,21 +49,21 @@
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                33 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.80 % 
-🌆 Daytime                69 commits          █████░░░░░░░░░░░░░░░░░░░░   18.40 % 
-🌃 Evening                170 commits         ███████████░░░░░░░░░░░░░░   45.33 % 
-🌙 Night                  103 commits         ███████░░░░░░░░░░░░░░░░░░   27.47 % 
+🌞 Morning                33 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   08.78 % 
+🌆 Daytime                70 commits          █████░░░░░░░░░░░░░░░░░░░░   18.62 % 
+🌃 Evening                170 commits         ███████████░░░░░░░░░░░░░░   45.21 % 
+🌙 Night                  103 commits         ███████░░░░░░░░░░░░░░░░░░   27.39 % 
 ```
 📅 **I'm Most Productive on Sunday** 
 
 ```text
-Monday                   52 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.87 % 
-Tuesday                  63 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.80 % 
-Wednesday                62 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.53 % 
-Thursday                 37 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.87 % 
-Friday                   49 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.07 % 
-Saturday                 13 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   03.47 % 
-Sunday                   99 commits          ███████░░░░░░░░░░░░░░░░░░   26.40 % 
+Monday                   52 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.83 % 
+Tuesday                  63 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.76 % 
+Wednesday                62 commits          ████░░░░░░░░░░░░░░░░░░░░░   16.49 % 
+Thursday                 37 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   09.84 % 
+Friday                   49 commits          ███░░░░░░░░░░░░░░░░░░░░░░   13.03 % 
+Saturday                 14 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   03.72 % 
+Sunday                   99 commits          ███████░░░░░░░░░░░░░░░░░░   26.33 % 
 ```
 
 
@@ -104,7 +102,7 @@ PLpgSQL                  1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 23/05/2026 02:02:37 UTC
+ Last Updated on 24/05/2026 02:11:21 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
