@@ -48,6 +48,45 @@
  > 
 > 🔑 0 Private Repositories 
  > 
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                211 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.35 % 
+🌆 Daytime                281 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.44 % 
+🌃 Evening                591 commits         █████████░░░░░░░░░░░░░░░░   34.58 % 
+🌙 Night                  626 commits         █████████░░░░░░░░░░░░░░░░   36.63 % 
+```
+📅 **I'm Most Productive on Monday** 
+
+```text
+Monday                   424 commits         ██████░░░░░░░░░░░░░░░░░░░   24.81 % 
+Tuesday                  126 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.37 % 
+Wednesday                231 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.52 % 
+Thursday                 237 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.87 % 
+Friday                   362 commits         █████░░░░░░░░░░░░░░░░░░░░   21.18 % 
+Saturday                 59 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   03.45 % 
+Sunday                   270 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.80 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Karachi
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🔥 Editors: 
+No Activity Tracked This Week
+
+🐱‍💻 Projects: 
+No Activity Tracked This Week
+
+💻 Operating System: 
+No Activity Tracked This Week
+```
+
 **I Mostly Code in TypeScript** 
 
 ```text
@@ -65,7 +104,7 @@ PLpgSQL                  1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 15/06/2026 02:43:47 UTC
+ Last Updated on 16/06/2026 02:45:51 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
