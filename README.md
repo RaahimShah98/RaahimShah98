@@ -32,9 +32,7 @@
 ## 📊 Weekly Development Breakdown
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-71%20hrs%2034%20mins-blue?style=flat)
-
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-3.10%20million%20lines%20of%20code-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-3.11%20million%20lines%20of%20code-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
@@ -48,59 +46,14 @@
  > 
 > 🔑 0 Private Repositories 
  > 
-**I'm a Night 🦉** 
-
-```text
-🌞 Morning                603 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.92 % 
-🌆 Daytime                1165 commits        ██████░░░░░░░░░░░░░░░░░░░   23.04 % 
-🌃 Evening                1529 commits        ████████░░░░░░░░░░░░░░░░░   30.24 % 
-🌙 Night                  1760 commits        █████████░░░░░░░░░░░░░░░░   34.80 % 
-```
-📅 **I'm Most Productive on Monday** 
-
-```text
-Monday                   1300 commits        ██████░░░░░░░░░░░░░░░░░░░   25.71 % 
-Tuesday                  452 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.94 % 
-Wednesday                563 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.13 % 
-Thursday                 942 commits         █████░░░░░░░░░░░░░░░░░░░░   18.63 % 
-Friday                   1031 commits        █████░░░░░░░░░░░░░░░░░░░░   20.39 % 
-Saturday                 147 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   02.91 % 
-Sunday                   622 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.30 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Karachi
-
-💬 Programming Languages: 
-No Activity Tracked This Week
-
-🔥 Editors: 
-No Activity Tracked This Week
-
-🐱‍💻 Projects: 
-No Activity Tracked This Week
-
-💻 Operating System: 
-No Activity Tracked This Week
-```
-
-🤖 **AI Coding This Week** 
-
-```text
-No AI Coding Activity Tracked This Week
-```
-
 **I Mostly Code in TypeScript** 
 
 ```text
-TypeScript               12 repos            ██████████░░░░░░░░░░░░░░░   41.38 % 
-JavaScript               8 repos             ███████░░░░░░░░░░░░░░░░░░   27.59 % 
-Python                   3 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.34 % 
-Jupyter Notebook         3 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.34 % 
-PLpgSQL                  1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   03.45 % 
+TypeScript               12 repos            ██████████░░░░░░░░░░░░░░░   40.00 % 
+JavaScript               8 repos             ███████░░░░░░░░░░░░░░░░░░   26.67 % 
+Python                   3 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   10.00 % 
+Jupyter Notebook         3 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   10.00 % 
+PLpgSQL                  2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   06.67 % 
 ```
 
 
@@ -110,7 +63,7 @@ PLpgSQL                  1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 06/08/2026 01:29:57 UTC
+ Last Updated on 07/08/2026 02:07:05 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
