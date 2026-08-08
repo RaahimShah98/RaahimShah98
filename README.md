@@ -32,6 +32,8 @@
 ## 📊 Weekly Development Breakdown
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-71%20hrs%2034%20mins-blue?style=flat)
+
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-3.11%20million%20lines%20of%20code-blue?style=flat)
 
 **🐱 My GitHub Data** 
@@ -46,6 +48,51 @@
  > 
 > 🔑 0 Private Repositories 
  > 
+**I'm a Night 🦉** 
+
+```text
+🌞 Morning                610 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.02 % 
+🌆 Daytime                1165 commits        ██████░░░░░░░░░░░░░░░░░░░   22.96 % 
+🌃 Evening                1536 commits        ████████░░░░░░░░░░░░░░░░░   30.27 % 
+🌙 Night                  1764 commits        █████████░░░░░░░░░░░░░░░░   34.76 % 
+```
+📅 **I'm Most Productive on Monday** 
+
+```text
+Monday                   1300 commits        ██████░░░░░░░░░░░░░░░░░░░   25.62 % 
+Tuesday                  452 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.91 % 
+Wednesday                563 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.09 % 
+Thursday                 950 commits         █████░░░░░░░░░░░░░░░░░░░░   18.72 % 
+Friday                   1038 commits        █████░░░░░░░░░░░░░░░░░░░░   20.45 % 
+Saturday                 150 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   02.96 % 
+Sunday                   622 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.26 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Karachi
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🔥 Editors: 
+No Activity Tracked This Week
+
+🐱‍💻 Projects: 
+No Activity Tracked This Week
+
+💻 Operating System: 
+No Activity Tracked This Week
+```
+
+🤖 **AI Coding This Week** 
+
+```text
+No AI Coding Activity Tracked This Week
+```
+
 **I Mostly Code in TypeScript** 
 
 ```text
@@ -63,7 +110,7 @@ PLpgSQL                  2 repos             ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 07/08/2026 02:07:05 UTC
+ Last Updated on 08/08/2026 00:52:35 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
