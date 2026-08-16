@@ -34,7 +34,7 @@
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-71%20hrs%2034%20mins-blue?style=flat)
 
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-3.26%20million%20lines%20of%20code-blue?style=flat)
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-5.04%20million%20lines%20of%20code-blue?style=flat)
 
 **🐱 My GitHub Data** 
 
@@ -51,21 +51,21 @@
 **I'm a Night 🦉** 
 
 ```text
-🌞 Morning                647 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.91 % 
-🌆 Daytime                1261 commits        ██████░░░░░░░░░░░░░░░░░░░   23.21 % 
-🌃 Evening                1640 commits        ████████░░░░░░░░░░░░░░░░░   30.18 % 
-🌙 Night                  1886 commits        █████████░░░░░░░░░░░░░░░░   34.71 % 
+🌞 Morning                947 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.66 % 
+🌆 Daytime                2687 commits        ████████░░░░░░░░░░░░░░░░░   30.26 % 
+🌃 Evening                2525 commits        ███████░░░░░░░░░░░░░░░░░░   28.43 % 
+🌙 Night                  2722 commits        ████████░░░░░░░░░░░░░░░░░   30.65 % 
 ```
 📅 **I'm Most Productive on Monday** 
 
 ```text
-Monday                   1395 commits        ██████░░░░░░░░░░░░░░░░░░░   25.67 % 
-Tuesday                  491 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.04 % 
-Wednesday                592 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.89 % 
-Thursday                 1023 commits        █████░░░░░░░░░░░░░░░░░░░░   18.83 % 
-Friday                   1094 commits        █████░░░░░░░░░░░░░░░░░░░░   20.13 % 
-Saturday                 160 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   02.94 % 
-Sunday                   679 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.50 % 
+Monday                   2482 commits        ███████░░░░░░░░░░░░░░░░░░   27.95 % 
+Tuesday                  1054 commits        ███░░░░░░░░░░░░░░░░░░░░░░   11.87 % 
+Wednesday                835 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.40 % 
+Thursday                 1807 commits        █████░░░░░░░░░░░░░░░░░░░░   20.35 % 
+Friday                   1596 commits        ████░░░░░░░░░░░░░░░░░░░░░   17.97 % 
+Saturday                 215 commits         █░░░░░░░░░░░░░░░░░░░░░░░░   02.42 % 
+Sunday                   892 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.04 % 
 ```
 
 
@@ -110,7 +110,7 @@ PLpgSQL                  2 repos             ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/bar_graph.png)
 
 
- Last Updated on 15/08/2026 00:39:01 UTC
+ Last Updated on 16/08/2026 00:41:19 UTC
 <!--END_SECTION:waka-->
 
 ## 🚀 Recent Activity
