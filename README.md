@@ -5,7 +5,7 @@
   <img alt="Raahim Shah, Full-stack and computer-vision engineer" src="https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/profile/hero-light.svg?v=20260927" width="100%">
 </picture>
 
-I build web products with React, Next.js, TypeScript and Tailwind CSS, and computer-vision and machine-learning systems with YOLO, MediaPipe, TensorFlow and OpenCV. Several projects join the two: models running inside the browser, next to the interface that uses them.
+I build web products with React, TypeScript, Tailwind CSS and Next.js, and computer-vision and machine-learning systems with YOLO, MediaPipe, TensorFlow and OpenCV. Several projects join the two: models running inside the browser, next to the interface that uses them.
 
 Currently going deeper into system design and software architecture. Open to React, Next.js and MERN engineering roles.
 
@@ -42,4 +42,4 @@ Reach me on [LinkedIn](https://www.linkedin.com/in/raahim-shah-7b6603213/).
   <img alt="Timeline of every public repository" src="https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/profile/timeline-light.svg?v=20260927" width="100%">
 </picture>
 
-<sub>Everything above is generated from the GitHub API and my repositories' code, refreshed daily. Last run 27 Sep 2026.</sub>
+<sub>Everything above is generated from the GitHub API and my repositories' code, refreshed daily. Figures include 14 private repositories, counted without names or details. Last run 27 Sep 2026.</sub>
