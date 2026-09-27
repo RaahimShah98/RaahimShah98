@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="533" viewBox="0 0 1200 533" role="img" aria-label="Project timeline">
+<title>Project timeline</title>
+<style>
+text{font-family:'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif;fill:#17212d}
+.m{fill:#5a6676}.fa{fill:#98a3b1}.mono{font-family:ui-monospace, 'Cascadia Mono', 'SF Mono', Menlo, Consolas, monospace}
+
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<rect x="0.5" y="0.5" width="1199" height="532" rx="12" fill="#ffffff" stroke="#dde3ea"/>
+<text x="56" y="52" font-size="21" font-weight="600" letter-spacing="-0.2">Project timeline</text>
+<text x="56" y="78" font-size="14" class="m">Each bar runs from the day a repository was created to its latest push</text>
+<line x1="386" y1="120" x2="386" y2="503" stroke="#edf1f5"/>
+<text x="392" y="116" font-size="12.5" class="m mono">2022</text><line x1="537.5" y1="120" x2="537.5" y2="503" stroke="#edf1f5"/>
+<text x="543.5" y="116" font-size="12.5" class="m mono">2023</text><line x1="689" y1="120" x2="689" y2="503" stroke="#edf1f5"/>
+<text x="695" y="116" font-size="12.5" class="m mono">2024</text><line x1="841" y1="120" x2="841" y2="503" stroke="#edf1f5"/>
+<text x="847" y="116" font-size="12.5" class="m mono">2025</text><line x1="992.5" y1="120" x2="992.5" y2="503" stroke="#edf1f5"/>
+<text x="998.5" y="116" font-size="12.5" class="m mono">2026</text>
+<line x1="1104.5" y1="120" x2="1104.5" y2="503" stroke="#b7791f" stroke-dasharray="3 4"/>
+<text x="1098.5" y="519" font-size="12" text-anchor="end" class="m">today</text>
+<text x="56" y="157" font-size="13.5">HotelManagementSystemGUI-JAVA</text>
+<line x1="461.7" y1="152" x2="465.9" y2="152" stroke="#b85a6a" stroke-width="6" stroke-linecap="round"><title>HotelManagementSystemGUI-JAVA: created 2022-07-02, last push 2022-07-12</title></line>
+<circle cx="465.9" cy="152" r="4.5" fill="#ffffff" stroke="#b85a6a" stroke-width="2"/><text x="56" y="184" font-size="13.5">Cab-System</text>
+<line x1="542.8" y1="179" x2="546.8" y2="179" stroke="#8a5aa6" stroke-width="6" stroke-linecap="round"><title>Cab-System: created 2023-01-13, last push 2023-01-17</title></line>
+<circle cx="546.8" cy="179" r="4.5" fill="#ffffff" stroke="#8a5aa6" stroke-width="2"/><text x="56" y="211" font-size="13.5">Ding-Dong-vs-ZodGilla-game-xD</text>
+<line x1="553.1" y1="206" x2="557.1" y2="206" stroke="#4f66b0" stroke-width="6" stroke-linecap="round"><title>Ding-Dong-vs-ZodGilla-game-xD: created 2023-02-07, last push 2023-02-07</title></line>
+<circle cx="557.1" cy="206" r="4.5" fill="#ffffff" stroke="#4f66b0" stroke-width="2"/><text x="56" y="238" font-size="13.5">ecommerceStore</text>
+<line x1="632.3" y1="233" x2="636.3" y2="233" stroke="#6b7788" stroke-width="6" stroke-linecap="round"><title>ecommerceStore: created 2023-08-17, last push 2023-08-17</title></line>
+<circle cx="636.3" cy="233" r="4.5" fill="#ffffff" stroke="#6b7788" stroke-width="2"/><text x="56" y="265" font-size="13.5">QuizAppGame-usin-React-and-MySQL-with…</text>
+<line x1="658.1" y1="260" x2="662.1" y2="260" stroke="#6b7788" stroke-width="6" stroke-linecap="round"><title>QuizAppGame-usin-React-and-MySQL-with-firebase-authentication: created 2023-10-18, last push 2023-10-18</title></line>
+<circle cx="662.1" cy="260" r="4.5" fill="#ffffff" stroke="#6b7788" stroke-width="2"/><text x="56" y="292" font-size="13.5">Nutirtional-Supplement-Store-using-Re…</text>
+<line x1="722.9" y1="287" x2="726.9" y2="287" stroke="#6b7788" stroke-width="6" stroke-linecap="round"><title>Nutirtional-Supplement-Store-using-React-and-Firebase-Auth0: created 2024-03-22, last push 2024-03-22</title></line>
+<circle cx="726.9" cy="287" r="4.5" fill="#ffffff" stroke="#6b7788" stroke-width="2"/><text x="56" y="319" font-size="13.5">Workout-Classification-Using-Mediapipe</text>
+<line x1="798.9" y1="314" x2="802.9" y2="314" stroke="#c1841f" stroke-width="6" stroke-linecap="round"><title>Workout-Classification-Using-Mediapipe: created 2024-09-21, last push 2024-09-21</title></line>
+<circle cx="802.9" cy="314" r="4.5" fill="#ffffff" stroke="#c1841f" stroke-width="2"/><text x="56" y="346" font-size="13.5">OpenAI-Assistant-with-React.js</text>
+<line x1="837.6" y1="341" x2="841.6" y2="341" stroke="#4f66b0" stroke-width="6" stroke-linecap="round"><title>OpenAI-Assistant-with-React.js: created 2024-12-23, last push 2024-12-23</title></line>
+<circle cx="841.6" cy="341" r="4.5" fill="#ffffff" stroke="#4f66b0" stroke-width="2"/><text x="56" y="373" font-size="13.5">Waste-Product-Classifier</text>
+<line x1="837.6" y1="368" x2="841.6" y2="368" stroke="#c1841f" stroke-width="6" stroke-linecap="round"><title>Waste-Product-Classifier: created 2024-12-23, last push 2024-12-23</title></line>
+<circle cx="841.6" cy="368" r="4.5" fill="#ffffff" stroke="#c1841f" stroke-width="2"/><text x="56" y="400" font-size="13.5">Flower-Detection-using-YOLOv8</text>
+<line x1="849.6" y1="395" x2="853.6" y2="395" stroke="#c1841f" stroke-width="6" stroke-linecap="round"><title>Flower-Detection-using-YOLOv8: created 2025-01-21, last push 2025-01-21</title></line>
+<circle cx="853.6" cy="395" r="4.5" fill="#ffffff" stroke="#c1841f" stroke-width="2"/><text x="56" y="427" font-size="13.5">Yolo-With-Next.tsx</text>
+<line x1="857.1" y1="422" x2="861.1" y2="422" stroke="#4f66b0" stroke-width="6" stroke-linecap="round"><title>Yolo-With-Next.tsx: created 2025-02-08, last push 2025-02-08</title></line>
+<circle cx="861.1" cy="422" r="4.5" fill="#ffffff" stroke="#4f66b0" stroke-width="2"/><text x="56" y="454" font-size="13.5">fitmaster-ai</text>
+<line x1="864.6" y1="449" x2="900.4" y2="449" stroke="#24877f" stroke-width="6" stroke-linecap="round"><title>fitmaster-ai: created 2025-02-26, last push 2025-05-24</title></line>
+<circle cx="900.4" cy="449" r="4.5" fill="#ffffff" stroke="#24877f" stroke-width="2"/><text x="56" y="481" font-size="13.5">AudioVerse</text>
+<line x1="879.5" y1="476" x2="885.2" y2="476" stroke="#24877f" stroke-width="6" stroke-linecap="round"><title>AudioVerse: created 2025-04-03, last push 2025-04-17</title></line>
+<circle cx="885.2" cy="476" r="4.5" fill="#ffffff" stroke="#24877f" stroke-width="2"/>
+</svg>

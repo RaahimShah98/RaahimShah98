@@ -1,0 +1,11 @@
+{
+  "login": "RaahimShah98",
+  "displayName": "Raahim Shah",
+  "headline": "Full-stack and computer-vision engineer",
+  "focus": "Currently going deeper into system design and software architecture. Open to React, Next.js and MERN engineering roles.",
+  "links": [
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/raahim-shah-7b6603213/" }
+  ],
+  "exclude": ["RaahimShah98", "ec2-test-website"],
+  "featuredCount": 6
+}
