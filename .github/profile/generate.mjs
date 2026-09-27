@@ -15,6 +15,10 @@ const monthYear = (iso) => { const d = new Date(iso); return `${MONTHS[d.getUTCM
 
 function derive(config, data, now) {
   const repos = data.repos.filter((r) => r.language || r.stack.length);
+  // Only public repositories this user owns are ever shown by name.
+  const named = repos.filter((r) => !r.private && !r.contributedOnly);
+  const privateCount = repos.filter((r) => r.private).length;
+  const commits = repos.reduce((a, r) => a + (r.commits || 0), 0);
 
   // Languages: every repo counts once, split by its byte share.
   const langTotals = new Map();
@@ -61,17 +65,18 @@ function derive(config, data, now) {
   // Stack.
   const techCount = new Map();
   for (const r of repos) for (const t of r.stack) {
-    const cur = techCount.get(t.label) || { ...t, count: 0 };
+    const cur = techCount.get(t.label) || { ...t, count: 0, private: 0 };
     cur.count += 1;
+    if (r.private) cur.private += 1;
     techCount.set(t.label, cur);
   }
   const techs = [...techCount.values()].sort((a, b) => (a.group === b.group ? b.count - a.count : a.group === 'ml' ? -1 : 1));
-  const matrixRepos = repos.filter((r) => r.stack.length).sort((a, b) => b.pushedAt.localeCompare(a.pushedAt)).slice(0, 12);
+  const matrixRepos = named.filter((r) => r.stack.length).sort((a, b) => b.pushedAt.localeCompare(a.pushedAt)).slice(0, 12);
   const mlRepos = repos.filter((r) => r.stack.some((t) => t.group === 'ml')).length;
 
   const topLangs = langs.slice(0, 3).map((l) => l.name);
   const summaryLines = [
-    `${repos.length} public projects, ${mlRepos} of them involving machine learning or computer vision,`,
+    `${repos.length} projects${privateCount ? ` (${privateCount} private)` : ''}, ${mlRepos} of them involving machine learning or computer vision,`,
     `written mostly in ${listJoin(topLangs)}.`,
   ];
 
@@ -80,6 +85,9 @@ function derive(config, data, now) {
     displayName: config.displayName || data.user.name || config.login,
     headline: data.user.bio || config.headline,
     repos,
+    named,
+    privateCount,
+    commits,
     languages: shown,
     allLanguages: langs,
     langRank,
@@ -92,11 +100,11 @@ function derive(config, data, now) {
     matrixTechs: techs,
     summaryLines,
     ledger: [
-      { value: String(repos.length), label: 'public repositories' },
+      { value: String(repos.length), label: privateCount ? `repositories, ${privateCount} private` : 'public repositories' },
+      { value: commits.toLocaleString('en-US'), label: 'commits authored' },
       { value: totalContributions.toLocaleString('en-US'), label: `contributions since ${created.getUTCFullYear()}` },
+      { value: String(busiest.year), label: `busiest year, ${busiest.total.toLocaleString('en-US')} contributions` },
       { value: String(mlRepos), label: 'projects with ML or vision' },
-      { value: String(busiest.year), label: `busiest year, ${busiest.total} contributions` },
-      { value: String(techs.length), label: 'technologies in use' },
     ],
   };
 }
@@ -124,7 +132,7 @@ function readme(config, s, now) {
   const ml = s.techs.filter((t) => t.group === 'ml').sort((a, b) => rank(a) - rank(b)).slice(0, 4)
     .map((t) => (t.label === 'OpenAI API' ? 'the OpenAI API' : t.label));
 
-  const featured = [...s.repos]
+  const featured = s.named.filter((r) => !r.archived)
     .filter((r) => r.stack.length && r.descriptionSource !== 'detected' || r.stack.length >= 3)
     .sort((a, b) => b.pushedAt.localeCompare(a.pushedAt))
     .slice(0, config.featuredCount);
@@ -161,7 +169,7 @@ ${rows.join('\n')}
 
 ${picture(config.login, 'timeline', 'Timeline of every public repository', v)}
 
-<sub>Everything above is generated from the GitHub API and my repositories' code, refreshed daily. Last run ${date}.</sub>
+<sub>Everything above is generated from the GitHub API and my repositories' code, refreshed daily.${s.privateCount ? ` Figures include ${s.privateCount} private repositories, counted without names or details.` : ''} Last run ${date}.</sub>
 `;
 }
 

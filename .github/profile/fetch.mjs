@@ -134,14 +134,42 @@ export function listJoin(items) {
 
 // ---------------------------------------------------------------- repositories
 
+// File contents: raw.githubusercontent for public repos, the authenticated
+// contents API (raw media type) for private ones.
+function fileReader(r) {
+  if (!r.private) {
+    const base = `${RAW}/${r.full_name}/${r.default_branch}`;
+    return (path, max) => getText(`${base}/${path.split('/').map(encodeURIComponent).join('/')}`, max);
+  }
+  return async (path, max = 2_000_000) => {
+    const res = await fetch(`${API}/repos/${r.full_name}/contents/${path.split('/').map(encodeURIComponent).join('/')}`,
+      { headers: { ...headers, Accept: 'application/vnd.github.raw' } });
+    if (!res.ok) return null;
+    const text = await res.text();
+    return text.length > max ? text.slice(0, max) : text;
+  };
+}
+
+// Commits on the default branch authored by the user. With per_page=1 the
+// "last" page number in the Link header equals the count.
+async function authoredCommits(r, login) {
+  const res = await fetch(`${API}/repos/${r.full_name}/commits?author=${encodeURIComponent(login)}&per_page=1`,
+    { headers: authFailed ? anon : headers });
+  if (!res.ok) return 0; // 409 for empty repositories
+  const last = res.headers.get('link')?.match(/[?&]page=(\d+)>; rel="last"/);
+  if (last) return Number(last[1]);
+  const arr = await res.json();
+  return Array.isArray(arr) ? arr.length : 0;
+}
+
 async function enrichRepo(login, r) {
-  const branch = r.default_branch;
-  const base = `${RAW}/${login}/${r.name}/${branch}`;
-  const [languages, tree, readme, pkg] = await Promise.all([
+  const read = fileReader(r);
+  const [languages, tree, readme, pkg, commits] = await Promise.all([
     getJSON(r.languages_url).catch(() => ({})),
-    getJSON(`${API}/repos/${login}/${r.name}/contents`).catch(() => []),
-    getText(`${base}/README.md`),
-    getText(`${base}/package.json`),
+    getJSON(`${API}/repos/${r.full_name}/contents`).catch(() => []),
+    read('README.md'),
+    read('package.json'),
+    authoredCommits(r, login),
   ]);
 
   let deps = [];
@@ -155,12 +183,12 @@ async function enrichRepo(login, r) {
   const names = Array.isArray(tree) ? tree.map((f) => f.name) : [];
   const pySources = [];
   if (names.includes('requirements.txt')) {
-    const req = await getText(`${base}/requirements.txt`);
+    const req = await read('requirements.txt');
     if (req) pySources.push(req.split('\n').map((l) => `import ${l.split(/[=<>~\[ ]/)[0].trim().replace(/-/g, '_')}`).join('\n'));
   }
   const notebooks = names.filter((n) => n.endsWith('.ipynb') || n.endsWith('.py')).slice(0, 2);
   for (const nb of notebooks) {
-    const src = await getText(`${base}/${encodeURIComponent(nb)}`, 5_000_000);
+    const src = await read(nb, 5_000_000);
     if (src) pySources.push(src);
   }
   const pyImports = pySources.flatMap(pythonImports).map((m) => m.toLowerCase());
@@ -177,6 +205,10 @@ async function enrichRepo(login, r) {
     createdAt: r.created_at,
     pushedAt: r.pushed_at,
     topics: r.topics || [],
+    private: Boolean(r.private),
+    archived: Boolean(r.archived),
+    owned: r.owner?.login?.toLowerCase() === login.toLowerCase(),
+    commits,
     languages,
     stack: detectStack({ deps, pyImports, text }),
   };
@@ -187,6 +219,43 @@ async function enrichRepo(login, r) {
   repo.description = r.description?.trim() || readmeSummary(readme) || fallbackDescription(repo);
   repo.descriptionSource = r.description?.trim() ? 'description' : readmeSummary(readme) ? 'readme' : 'detected';
   return repo;
+}
+
+// Private repositories only ever feed aggregates. Strip anything that could
+// identify them before the data leaves this module.
+function anonymise(repo, i) {
+  return {
+    ...repo,
+    name: `private-${i + 1}`,
+    url: null,
+    homepage: null,
+    topics: [],
+    description: null,
+    descriptionSource: 'private',
+  };
+}
+
+// With a personal token for this account, list every repository it can see:
+// owned (public and private), plus collaborator and organisation repositories.
+async function listRepos(login) {
+  if (token) {
+    try {
+      const me = await getJSON(`${API}/user`);
+      if (me.login?.toLowerCase() === login.toLowerCase()) {
+        const all = [];
+        for (let page = 1; page <= 10; page++) {
+          const batch = await getJSON(`${API}/user/repos?per_page=100&page=${page}&visibility=all&affiliation=owner,collaborator,organization_member&sort=pushed`);
+          all.push(...batch);
+          if (batch.length < 100) break;
+        }
+        return { repos: all, mode: 'personal-token' };
+      }
+      console.warn(`Token belongs to ${me.login ?? 'an app'}, not ${login}; private repositories are skipped.`);
+    } catch (err) {
+      console.warn(`Could not list private repositories (${err.message}); using public ones.`);
+    }
+  }
+  return { repos: await getJSON(`${API}/users/${login}/repos?per_page=100&type=owner&sort=pushed`), mode: 'public' };
 }
 
 // ---------------------------------------------------------------- contributions
@@ -233,9 +302,18 @@ async function calendarScrape(login, years) {
 export async function collect(config, now = new Date()) {
   const login = config.login;
   const user = await getJSON(`${API}/users/${login}`);
-  const rawRepos = await getJSON(`${API}/users/${login}/repos?per_page=100&type=owner&sort=pushed`);
-  const eligible = rawRepos.filter((r) => !r.fork && !r.archived && !config.exclude.includes(r.name));
-  const repos = await Promise.all(eligible.map((r) => enrichRepo(login, r)));
+  const { repos: rawRepos, mode: repoSource } = await listRepos(login);
+  const eligible = rawRepos.filter((r) => !r.fork && !config.exclude.includes(r.name));
+  const enriched = [];
+  for (let i = 0; i < eligible.length; i += 8) {
+    enriched.push(...(await Promise.all(eligible.slice(i, i + 8).map((r) => enrichRepo(login, r)))));
+  }
+  // Repositories owned by others only count if this user actually committed to them.
+  const kept = enriched.filter((r) => r.owned || r.commits > 0);
+  let p = 0;
+  const repos = kept.map((r) => (r.private ? anonymise(r, p++) : r));
+  // Public repositories owned by someone else stay out of the named lists.
+  for (const r of repos) if (!r.private && !r.owned) r.contributedOnly = true;
 
   const firstYear = new Date(user.created_at).getUTCFullYear();
   const years = [];
@@ -266,6 +344,7 @@ export async function collect(config, now = new Date()) {
       url: user.html_url,
     },
     repos,
+    repoSource,
     calendar,
     calendarSource,
   };

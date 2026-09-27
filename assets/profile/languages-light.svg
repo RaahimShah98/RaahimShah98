@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Language mix across repositories">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="284" viewBox="0 0 1200 284" role="img" aria-label="Language mix across repositories">
 <title>Language mix across repositories</title>
 <style>
 text{font-family:'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif;fill:#17212d}
@@ -6,29 +6,23 @@ text{font-family:'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, 
 
 @media (prefers-reduced-motion: reduce){*{animation:none!important}}
 </style>
-<rect x="0.5" y="0.5" width="1199" height="319" rx="12" fill="#ffffff" stroke="#dde3ea"/>
+<rect x="0.5" y="0.5" width="1199" height="283" rx="12" fill="#ffffff" stroke="#dde3ea"/>
 <text x="56" y="52" font-size="21" font-weight="600" letter-spacing="-0.2">Language mix</text>
 <text x="56" y="78" font-size="14" class="m">Each repository counts once, split by its bytes of code, so one large notebook cannot skew the picture</text>
-<rect x="56" y="112" width="323.6" height="18" rx="3" fill="#c1841f"><title>Jupyter Notebook: 30.0%</title></rect><rect x="382.6" y="112" width="249.9" height="18" rx="3" fill="#24877f"><title>TypeScript: 23.2%</title></rect><rect x="635.5" y="112" width="231.2" height="18" rx="3" fill="#4f66b0"><title>JavaScript: 21.5%</title></rect><rect x="869.7" y="112" width="105.9" height="18" rx="3" fill="#b85a6a"><title>Java: 10.0%</title></rect><rect x="978.6" y="112" width="57.4" height="18" rx="3" fill="#6f9440"><title>CSS: 5.6%</title></rect><rect x="1039" y="112" width="51.5" height="18" rx="3" fill="#8a5aa6"><title>EJS: 5.0%</title></rect><rect x="1093.5" y="112" width="47.5" height="18" rx="3" fill="#6b7788"><title>HTML: 4.6%</title></rect><rect x="56" y="165" width="12" height="12" rx="2" fill="#c1841f"/>
+<rect x="56" y="112" width="463.6" height="18" rx="3" fill="#c1841f"><title>Jupyter Notebook: 42.9%</title></rect><rect x="522.6" y="112" width="358.4" height="18" rx="3" fill="#24877f"><title>TypeScript: 33.2%</title></rect><rect x="884" y="112" width="179.1" height="18" rx="3" fill="#4f66b0"><title>JavaScript: 16.7%</title></rect><rect x="1066" y="112" width="55.4" height="18" rx="3" fill="#b85a6a"><title>CSS: 5.4%</title></rect><rect x="1124.5" y="112" width="16.5" height="18" rx="3" fill="#6f9440"><title>HTML: 1.8%</title></rect><rect x="56" y="165" width="12" height="12" rx="2" fill="#c1841f"/>
 <text x="78" y="176" font-size="15">Jupyter Notebook</text>
-<text x="326" y="176" font-size="15" text-anchor="end" class="mono">30.0%</text>
+<text x="326" y="176" font-size="15" text-anchor="end" class="mono">42.9%</text>
 <text x="346" y="176" font-size="13.5" class="m">3 repos</text><rect x="616" y="165" width="12" height="12" rx="2" fill="#24877f"/>
 <text x="638" y="176" font-size="15">TypeScript</text>
-<text x="886" y="176" font-size="15" text-anchor="end" class="mono">23.2%</text>
+<text x="886" y="176" font-size="15" text-anchor="end" class="mono">33.2%</text>
 <text x="906" y="176" font-size="13.5" class="m">3 repos</text><rect x="56" y="201" width="12" height="12" rx="2" fill="#4f66b0"/>
 <text x="78" y="212" font-size="15">JavaScript</text>
-<text x="326" y="212" font-size="15" text-anchor="end" class="mono">21.5%</text>
-<text x="346" y="212" font-size="13.5" class="m">4 repos</text><rect x="616" y="201" width="12" height="12" rx="2" fill="#b85a6a"/>
-<text x="638" y="212" font-size="15">Java</text>
-<text x="886" y="212" font-size="15" text-anchor="end" class="mono">10.0%</text>
+<text x="326" y="212" font-size="15" text-anchor="end" class="mono">16.7%</text>
+<text x="346" y="212" font-size="13.5" class="m">2 repos</text><rect x="616" y="201" width="12" height="12" rx="2" fill="#b85a6a"/>
+<text x="638" y="212" font-size="15">CSS</text>
+<text x="886" y="212" font-size="15" text-anchor="end" class="mono">5.4%</text>
 <text x="906" y="212" font-size="13.5" class="m">1 repo</text><rect x="56" y="237" width="12" height="12" rx="2" fill="#6f9440"/>
-<text x="78" y="248" font-size="15">CSS</text>
-<text x="326" y="248" font-size="15" text-anchor="end" class="mono">5.6%</text>
-<text x="346" y="248" font-size="13.5" class="m">2 repos</text><rect x="616" y="237" width="12" height="12" rx="2" fill="#8a5aa6"/>
-<text x="638" y="248" font-size="15">EJS</text>
-<text x="886" y="248" font-size="15" text-anchor="end" class="mono">5.0%</text>
-<text x="906" y="248" font-size="13.5" class="m">1 repo</text><rect x="56" y="273" width="12" height="12" rx="2" fill="#6b7788"/>
-<text x="78" y="284" font-size="15">HTML</text>
-<text x="326" y="284" font-size="15" text-anchor="end" class="mono">4.6%</text>
-<text x="346" y="284" font-size="13.5" class="m">2 repos</text>
+<text x="78" y="248" font-size="15">HTML</text>
+<text x="326" y="248" font-size="15" text-anchor="end" class="mono">1.8%</text>
+<text x="346" y="248" font-size="13.5" class="m">1 repo</text>
 </svg>

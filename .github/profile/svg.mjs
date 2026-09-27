@@ -181,7 +181,8 @@ export function skyline(t, s) {
     const ch = [(n >> 16) & 255, (n >> 8) & 255, n & 255].map((v) => Math.round(v * k));
     return `#${ch.map((v) => v.toString(16).padStart(2, '0')).join('')}`;
   };
-  const level = (c) => (c === 0 ? 0 : Math.min(4, 1 + Math.floor((3.999 * Math.sqrt(c)) / Math.sqrt(max))));
+  // Teal steps for ordinary months; amber is kept for the top months only.
+  const level = (c) => (c === 0 ? 0 : c >= 0.8 * max ? 4 : Math.min(3, 1 + Math.floor(3 * Math.sqrt(c / max))));
 
   let peak = null;
   const cells = [];
@@ -293,9 +294,11 @@ export function stack(t, s) {
   const W = 1200;
   const repos = s.matrixRepos;
   const techs = s.matrixTechs;
+  const priv = s.privateCount > 0;
   const rowH = 26, labelW = 200;
-  const colW = Math.min(64, (W - 56 - labelW - 110) / repos.length);
+  const colW = Math.min(64, (W - 56 - labelW - 110 - (priv ? 90 : 0)) / Math.max(1, repos.length));
   const gridX = 56 + labelW;
+  const privX = gridX + repos.length * colW + 44;
   const top = 250;
   const H = top + techs.length * rowH + 44;
 
@@ -316,7 +319,11 @@ export function stack(t, s) {
       return on
         ? `<circle cx="${cx}" cy="${y + 13}" r="6" fill="${tech.group === 'ml' ? t.accent : t.series[1]}"><title>${esc(r.name)} uses ${esc(tech.label)}</title></circle>`
         : `<circle cx="${cx}" cy="${y + 13}" r="2" fill="${t.faint}" fill-opacity="0.5"/>`;
-    }).join('');
+    }).join('') + (priv
+      ? tech.private
+        ? `<text x="${f(privX)}" y="${y + 18}" font-size="13" text-anchor="middle" class="mono" style="fill:${tech.group === 'ml' ? t.accent : t.series[1]}">${tech.private}</text>`
+        : `<circle cx="${f(privX)}" cy="${y + 13}" r="2" fill="${t.faint}" fill-opacity="0.5"/>`
+      : '');
     return `${groupHead && j ? `<line x1="56" y1="${y}" x2="${W - 56}" y2="${y}" stroke="${t.rule}"/>` : ''}
 <text x="56" y="${y + 18}" font-size="14">${esc(tech.label)}</text>
 <text x="${W - 56}" y="${y + 18}" font-size="13" text-anchor="end" class="m mono">${tech.count}</text>
@@ -324,7 +331,8 @@ ${dots}`;
   }).join('');
 
   const body = `${heading(t, 56, 52, 'Stack, detected from the code', 'Read from package.json, requirements, notebook imports and READMEs. Amber is ML and vision, teal is web.')}
-${colLabels}
+ ${colLabels}
+${priv ? `<text transform="translate(${f(privX + 4)},${top - 16}) rotate(-50)" font-size="12.5" class="m">${s.privateCount} private repos</text>` : ''}
 <text x="${W - 56}" y="${top - 12}" font-size="12.5" text-anchor="end" class="fa">repos</text>
 ${rows}`;
   return frame(t, W, H, 'Technology used per repository', body);
@@ -334,7 +342,7 @@ ${rows}`;
 
 export function timeline(t, s, now) {
   const W = 1200;
-  const repos = [...s.repos].sort((a, b) => a.createdAt.localeCompare(b.createdAt));
+  const repos = [...s.named].sort((a, b) => a.createdAt.localeCompare(b.createdAt));
   const lane = 27, top = 142, labelW = 330;
   const H = top + repos.length * lane + 40;
   const start = new Date(Date.UTC(new Date(repos[0].createdAt).getUTCFullYear(), 0, 1));
@@ -357,7 +365,7 @@ export function timeline(t, s, now) {
 <line x1="${a}" y1="${y}" x2="${b}" y2="${y}" stroke="${col}" stroke-width="6" stroke-linecap="round"><title>${esc(r.name)}: created ${r.createdAt.slice(0, 10)}, last push ${r.pushedAt.slice(0, 10)}</title></line>
 <circle cx="${b}" cy="${y}" r="4.5" fill="${t.bg}" stroke="${col}" stroke-width="2"/>`;
   }).join('');
-  const body = `${heading(t, 56, 52, 'Project timeline', 'Each bar runs from the day a repository was created to its latest push')}
+  const body = `${heading(t, 56, 52, 'Project timeline', `Each bar runs from the day a public repository was created to its latest push${s.privateCount ? `. ${s.privateCount} private repositories are not listed.` : ''}`)}
 ${grid.join('')}
 <line x1="${nowX}" y1="${top - 22}" x2="${nowX}" y2="${H - 30}" stroke="${t.accent}" stroke-dasharray="3 4"/>
 <text x="${nowX - 6}" y="${H - 14}" font-size="12" text-anchor="end" class="m">today</text>
