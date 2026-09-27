@@ -30,12 +30,12 @@ Reach me on [LinkedIn](https://www.linkedin.com/in/raahim-shah-7b6603213/).
 
 | Project | What it does | Built with | Last push |
 | :-- | :-- | :-- | :-- |
-| [**fitmaster-ai**](https://github.com/RaahimShah98/fitmaster-ai) | Next.js app built with OpenAI API, MediaPipe, TensorFlow and Firebase. | Next.js, React, Tailwind CSS, Firebase, Chart.js | May 2025 |
+| [**fitmaster-ai**](https://github.com/RaahimShah98/fitmaster-ai) | Next.js app built with the OpenAI API, MediaPipe, TensorFlow and Firebase. | Next.js, React, Tailwind CSS, Firebase, Chart.js | May 2025 |
 | [**AudioVerse**](https://github.com/RaahimShah98/AudioVerse) | Get transcirption from audio and extract keypoints from audio. | Next.js, React, Tailwind CSS, OpenAI API, Whisper | Apr 2025 |
 | [**Yolo-With-Next.tsx**](https://github.com/RaahimShah98/Yolo-With-Next.tsx) | Next.js app built with TensorFlow, ONNX Runtime and Node.js. | Next.js, React, Node.js, Tailwind CSS, TensorFlow | Feb 2025 |
 | [**Flower-Detection-using-YOLOv8**](https://github.com/RaahimShah98/Flower-Detection-using-YOLOv8) | This project involves developing a flower detection model using the YOLO (You Only Look Once) object detection framework. | YOLO, PyTorch, Roboflow | Jan 2025 |
 | [**Waste-Product-Classifier**](https://github.com/RaahimShah98/Waste-Product-Classifier) | Python notebook project built with TensorFlow and scikit-learn. | TensorFlow, scikit-learn | Dec 2024 |
-| [**OpenAI-Assistant-with-React.js**](https://github.com/RaahimShah98/OpenAI-Assistant-with-React.js) | React app built with OpenAI API, Node.js and Express. | React, Node.js, Express, OpenAI API | Dec 2024 |
+| [**OpenAI-Assistant-with-React.js**](https://github.com/RaahimShah98/OpenAI-Assistant-with-React.js) | React app built with the OpenAI API, Node.js and Express. | React, Node.js, Express, OpenAI API | Dec 2024 |
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/profile/timeline-dark.svg?v=20260927">
