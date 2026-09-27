@@ -260,8 +260,9 @@ async function listRepos(login) {
 
 // ---------------------------------------------------------------- contributions
 
-async function calendarGraphQL(login, years) {
+async function calendarGraphQL(login, years, now) {
   const out = [];
+  let restricted = 0;
   for (const year of years) {
     const q = `query($login:String!,$from:DateTime!,$to:DateTime!){user(login:$login){contributionsCollection(from:$from,to:$to){
       restrictedContributionsCount totalCommitContributions totalPullRequestContributions totalIssueContributions totalPullRequestReviewContributions
@@ -269,13 +270,15 @@ async function calendarGraphQL(login, years) {
     const res = await fetch(`${API}/graphql`, {
       method: 'POST',
       headers: { ...headers, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ query: q, variables: { login, from: `${year}-01-01T00:00:00Z`, to: `${year}-12-31T23:59:59Z` } }),
+      body: JSON.stringify({ query: q, variables: { login, from: `${year}-01-01T00:00:00Z`, to: year === now.getUTCFullYear() ? now.toISOString() : `${year}-12-31T23:59:59Z` } }),
     });
     const json = await res.json();
     if (!res.ok || json.errors) throw new Error(`GraphQL: ${JSON.stringify(json.errors || json.message)}`);
     const c = json.data.user.contributionsCollection;
+    restricted += c.restrictedContributionsCount;
     for (const w of c.contributionCalendar.weeks) for (const d of w.contributionDays) out.push({ date: d.date, count: d.contributionCount });
   }
+  if (restricted) console.log(`${restricted} private contributions are hidden from this token.`);
   return out;
 }
 
@@ -323,10 +326,10 @@ export async function collect(config, now = new Date()) {
   let calendarSource = 'graphql';
   try {
     if (!token || authFailed) throw new Error('no usable token');
-    calendar = await calendarGraphQL(login, years);
+    calendar = await calendarGraphQL(login, years, now);
   } catch (err) {
     if (token) console.warn(`GraphQL calendar failed (${err.message}); falling back to the public page.`);
-    calendarSource = 'public-page';
+    calendarSource = token && !authFailed ? `public-page (graphql failed: ${String(err.message).slice(0, 120)})` : 'public-page';
     calendar = await calendarScrape(login, years);
   }
   const today = now.toISOString().slice(0, 10);
