@@ -162,6 +162,24 @@ async function authoredCommits(r, login) {
   return Array.isArray(arr) ? arr.length : 0;
 }
 
+// Dates (YYYY-MM-DD, UTC) of the user's commits on the default branch.
+async function commitDates(r, login, count) {
+  const dates = [];
+  const pages = Math.min(30, Math.ceil(count / 100));
+  for (let page = 1; page <= pages; page++) {
+    const res = await fetch(`${API}/repos/${r.full_name}/commits?author=${encodeURIComponent(login)}&per_page=100&page=${page}`,
+      { headers: authFailed ? anon : headers });
+    if (!res.ok) break;
+    const batch = await res.json();
+    for (const c of batch) {
+      const d = c.commit?.author?.date || c.commit?.committer?.date;
+      if (d) dates.push(d.slice(0, 10));
+    }
+    if (batch.length < 100) break;
+  }
+  return dates;
+}
+
 async function enrichRepo(login, r) {
   const read = fileReader(r);
   const [languages, tree, readme, pkg, commits] = await Promise.all([
@@ -209,6 +227,7 @@ async function enrichRepo(login, r) {
     archived: Boolean(r.archived),
     owned: r.owner?.login?.toLowerCase() === login.toLowerCase(),
     commits,
+    commitDates: commits ? await commitDates(r, login, commits) : [],
     languages,
     stack: detectStack({ deps, pyImports, text }),
   };
@@ -332,6 +351,19 @@ export async function collect(config, now = new Date()) {
     calendarSource = token && !authFailed ? `public-page (graphql failed: ${String(err.message).slice(0, 120)})` : 'public-page';
     calendar = await calendarScrape(login, years);
   }
+  // GitHub's calendar leaves out private work unless the profile opts in, so
+  // merge in authored commits from every repository. Taking the larger count
+  // per day means nothing is counted twice.
+  const commitDays = new Map();
+  for (const r of repos) {
+    for (const d of r.commitDates) commitDays.set(d, (commitDays.get(d) || 0) + 1);
+    delete r.commitDates;
+  }
+  const merged = new Map(calendar.map((d) => [d.date, d.count]));
+  for (const [date, n] of commitDays) merged.set(date, Math.max(merged.get(date) || 0, n));
+  calendar = [...merged].map(([date, count]) => ({ date, count }));
+  if (commitDays.size) calendarSource += '+commits';
+
   const today = now.toISOString().slice(0, 10);
   calendar = calendar.filter((d) => d.date <= today).sort((a, b) => a.date.localeCompare(b.date));
 

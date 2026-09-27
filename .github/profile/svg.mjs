@@ -252,7 +252,7 @@ export function skyline(t, s) {
 <animateTransform attributeName="transform" type="translate" values="0,0;${dx},${dy}" dur="7s" repeatCount="indefinite"/>
 <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.08;0.9;1" dur="7s" repeatCount="indefinite"/></g>`;
   const legend = t.ramp.map((c, i) => `<rect x="${56 + i * 18}" y="${H - 46}" width="12" height="12" rx="2" fill="${c}"/>`).join('');
-  const body = `${heading(t, 56, 64, 'Contribution history', `${fmt(s.totalContributions)} contributions since ${s.since}, one tower per month`)}
+  const body = `${heading(t, 56, 64, 'Contribution history', `${fmt(s.totalContributions)} contributions since ${s.since}${s.privateCount ? ', private work included' : ''}, one tower per month`)}
 ${totals}
 ${legend}
 <text x="${56 + 5 * 18 + 6}" y="${H - 36}" font-size="12.5" class="fa">fewer to more</text>
