@@ -8,15 +8,15 @@ text{font-family:'Segoe UI', -apple-system, 'Helvetica Neue', Helvetica, Arial, 
 </style>
 <rect x="0.5" y="0.5" width="1199" height="532" rx="12" fill="#0f1722" stroke="#233044"/>
 <text x="56" y="52" font-size="21" font-weight="600" letter-spacing="-0.2">Project timeline</text>
-<text x="56" y="78" font-size="14" class="m">Each bar runs from the day a public repository was created to its latest push. 14 private repositories are not listed.</text>
+<text x="56" y="78" font-size="14" class="m">Each bar runs from the day a public repository was created to its latest push. 15 private repositories are not listed.</text>
 <line x1="386" y1="120" x2="386" y2="503" stroke="#1b2635"/>
 <text x="392" y="116" font-size="12.5" class="m mono">2022</text><line x1="537.5" y1="120" x2="537.5" y2="503" stroke="#1b2635"/>
 <text x="543.5" y="116" font-size="12.5" class="m mono">2023</text><line x1="689" y1="120" x2="689" y2="503" stroke="#1b2635"/>
 <text x="695" y="116" font-size="12.5" class="m mono">2024</text><line x1="841" y1="120" x2="841" y2="503" stroke="#1b2635"/>
 <text x="847" y="116" font-size="12.5" class="m mono">2025</text><line x1="992.5" y1="120" x2="992.5" y2="503" stroke="#1b2635"/>
 <text x="998.5" y="116" font-size="12.5" class="m mono">2026</text>
-<line x1="1105.2" y1="120" x2="1105.2" y2="503" stroke="#f2b33d" stroke-dasharray="3 4"/>
-<text x="1099.2" y="519" font-size="12" text-anchor="end" class="m">today</text>
+<line x1="1105.6" y1="120" x2="1105.6" y2="503" stroke="#f2b33d" stroke-dasharray="3 4"/>
+<text x="1099.6" y="519" font-size="12" text-anchor="end" class="m">today</text>
 <text x="56" y="157" font-size="13.5">HotelManagementSystemGUI-JAVA</text>
 <line x1="461.7" y1="152" x2="465.9" y2="152" stroke="#7d8a9c" stroke-width="6" stroke-linecap="round"><title>HotelManagementSystemGUI-JAVA: created 2022-07-02, last push 2022-07-12</title></line>
 <circle cx="465.9" cy="152" r="4.5" fill="#0f1722" stroke="#7d8a9c" stroke-width="2"/><text x="56" y="184" font-size="13.5">Cab-System</text>
