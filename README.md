@@ -2,8 +2,8 @@
 <!-- sources: repos=personal-token, calendar=graphql+commits -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/profile/hero-dark.svg?v=20261003">
-  <img alt="Raahim Shah, Full-stack and computer-vision engineer" src="https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/profile/hero-light.svg?v=20261003" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/profile/hero-dark.svg?v=20261004">
+  <img alt="Raahim Shah, Full-stack and computer-vision engineer" src="https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/profile/hero-light.svg?v=20261004" width="100%">
 </picture>
 
 I build web products with React, TypeScript, Tailwind CSS and Next.js, and computer-vision and machine-learning systems with YOLO, MediaPipe, TensorFlow and OpenCV. Several projects join the two: models running inside the browser, next to the interface that uses them.
@@ -13,18 +13,18 @@ Currently going deeper into system design and software architecture. Open to Rea
 Reach me on [LinkedIn](https://www.linkedin.com/in/raahim-shah-7b6603213/).
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/profile/skyline-dark.svg?v=20261003">
-  <img alt="Contribution history: 912 contributions since Sep 2021" src="https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/profile/skyline-light.svg?v=20261003" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/profile/skyline-dark.svg?v=20261004">
+  <img alt="Contribution history: 912 contributions since Sep 2021" src="https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/profile/skyline-light.svg?v=20261004" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/profile/stack-dark.svg?v=20261003">
-  <img alt="Technologies detected in each repository" src="https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/profile/stack-light.svg?v=20261003" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/profile/stack-dark.svg?v=20261004">
+  <img alt="Technologies detected in each repository" src="https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/profile/stack-light.svg?v=20261004" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/profile/languages-dark.svg?v=20261003">
-  <img alt="Language mix across repositories" src="https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/profile/languages-light.svg?v=20261003" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/profile/languages-dark.svg?v=20261004">
+  <img alt="Language mix across repositories" src="https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/profile/languages-light.svg?v=20261004" width="100%">
 </picture>
 
 ### Recent work
@@ -39,8 +39,8 @@ Reach me on [LinkedIn](https://www.linkedin.com/in/raahim-shah-7b6603213/).
 | [**OpenAI-Assistant-with-React.js**](https://github.com/RaahimShah98/OpenAI-Assistant-with-React.js) | React app built with the OpenAI API, Node.js and Express. | React, Node.js, Express, OpenAI API | Dec 2024 |
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/profile/timeline-dark.svg?v=20261003">
-  <img alt="Timeline of every public repository" src="https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/profile/timeline-light.svg?v=20261003" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/profile/timeline-dark.svg?v=20261004">
+  <img alt="Timeline of every public repository" src="https://raw.githubusercontent.com/RaahimShah98/RaahimShah98/main/assets/profile/timeline-light.svg?v=20261004" width="100%">
 </picture>
 
-<sub>Everything above is generated from the GitHub API and my repositories' code, refreshed daily. Figures include 15 private repositories, counted without names or details. Last run 3 Oct 2026.</sub>
+<sub>Everything above is generated from the GitHub API and my repositories' code, refreshed daily. Figures include 15 private repositories, counted without names or details. Last run 4 Oct 2026.</sub>
